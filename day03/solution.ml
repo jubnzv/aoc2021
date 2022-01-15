@@ -27,12 +27,3 @@ module Part1 = struct
             (conv gr) * (conv er))
         |> Printf.printf "Part 1: %d\n")
 end
-
-module Part2 = struct
-  let run () =
-    In_channel.with_file "input.txt" ~f:(fun ic ->
-      In_channel.fold_lines ic
-        ~init:[]
-        ~f:(fun acc l ->
-      ))
-end
